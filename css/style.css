@@ -1,0 +1,864 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1130px;
+    margin: 0 auto;
+
+}
+
+.intro {
+    height: 600px;
+    background-color: #87509c;
+
+}
+
+.header {
+    width: 100%;
+
+    height: 100px;
+    padding: 50px;
+
+}
+
+.logo {
+    float: left;
+    display: flex;
+    margin-right: 100px;
+}
+
+.nav{
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    float: right;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 15px;
+}
+
+.nav_link {
+    margin-left: 30px;
+
+
+    color: #fff;
+    text-decoration: none;
+    opacity: .75;
+    font-family: 'Titillium Web', sans-serif;
+
+    transition: opacity .1s linear;
+
+
+}
+
+.nav_link:first-child {
+    margin-left: 0;
+
+
+}
+
+.nav_link:hover {
+    background-color: darkorange;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .2 linear;
+}
+
+.intro_text h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 42px;
+    text-align: center;
+    color: #fff;
+    margin-top: 145px;
+    margin-left: 114px;
+    margin-right: 114px;
+    font-weight: 300;
+    line-height: 1.1em;
+}
+
+.intro_btn {
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+
+}
+
+.intro_btn a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-right: 65px;
+    padding-left: 65px;
+    background-color: #eb7d4b;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.intro_btn a:hover {
+    background-color: chocolate;
+}
+
+
+
+.service {
+    height: 745px;
+    background-color: #17c2a4;
+
+
+}
+
+.serice_container h1 {
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 43px;
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 100px;
+    letter-spacing: 5em normal inherit;
+}
+
+.serice_container hr {
+    width: 90px;
+    height: 4px;
+    background-color: #c8d9e5;
+    color: #c8d9e5;
+    margin-top: 15px;
+
+}
+
+.serice_container h3 {
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    margin: 0;
+    text-align: center;
+    margin-top: 17px;
+    letter-spacing: 0em normal inherit;
+}
+
+.service_block {
+    width: 23%;
+    display: block;
+    margin-top: 75px;
+    float: right;
+    margin-left: 20px;
+}
+
+.service_img {
+    display: flex;
+    padding-left: 38%;
+}
+
+.service_text {
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.service_texts {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    opacity: .9;
+}
+
+.center_icon {
+    padding-left: 30%;
+}
+
+.service_block:first-child {
+    margin-left: none;
+}
+
+.team {
+    height: 915px;
+    background-color: #e7f1f8;
+}
+
+.team .serice_container h1 {
+    color: #3c4761;
+}
+
+.team .serice_container h3 {
+    color: #3c4761;
+}
+
+.team_block {
+    width: 23%;
+    display: block;
+    margin-top: 100px;
+    float: left;
+    margin-left: 20px;
+}
+
+.team_photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #878787;
+}
+
+.team_name {
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 20px;
+    margin: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.team_name h1 {
+    margin: 0;
+    padding: 0;
+    color: #27283d;
+}
+
+.team_class {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 0;
+    padding-top: 0;
+    float: top;
+    color: #30bae7;
+}
+
+.team_ops {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.3em;
+    margin-top: 25px;
+}
+
+.team_link {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.team_link img {
+    width: 32px;
+    height: 32px;
+    margin-left: 12px;
+}
+
+.team_link img:hover {
+    background-color: #333;
+    border-radius: 16px;
+}
+
+.skills {
+    background-color: #fff;
+    height: 655px;
+}
+
+.skills .serice_container h1 {
+    color: #3c4761;
+}
+
+.skills .serice_container h3 {
+    color: #3c4761;
+
+}
+
+.status {
+    width: 25%;
+    display: block;
+    float: left;
+    margin-top: 50px;
+}
+
+.status_text {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #3c4761;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.status h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    color: #3c4761;
+}
+
+/*ONE ============================================*/
+
+.diagram {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #dfe8ed;
+    position: relative;
+    overflow: hidden;
+    left: 20%;
+
+}
+.diagram::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    right: 13px;
+    bottom: 13px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 3;
+    opacity: 1;
+}
+.diagram .piece {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+}
+.diagram .piece::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.diagram .piece.left {
+    transform: rotate(30deg);
+    z-index: 2;
+    border-radius: 50%; /* only FireFox < 75.0v (fix bug)*/
+}
+.diagram.over_50 .piece.left {
+    transform: rotate(180deg);
+}
+.diagram .piece.right {
+    transform: rotate(180deg);
+    z-index: 1;
+    border-radius: 50%; /* only FireFox < 75.0v (fix bug)*/
+}
+.diagram.over_50 .piece.right {
+    transform: rotate(360deg);
+}
+.diagram .left::before {
+    background: #30bae7;
+}
+.diagram.over_50 .left::before {
+    background: #990;
+}
+.diagram .right::before {
+    background: #30bae7;
+}
+.diagram .text {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TWO ==========================================*/
+
+.diagram_two {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #dfe8ed;
+    position: relative;
+    overflow: hidden;
+    left: 20%;
+}
+.diagram_two::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    right: 13px;
+    bottom: 13px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 3;
+    opacity: 1;
+}
+.diagram_two .piece {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+}
+.diagram_two .piece::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.diagram_two .piece.left {
+    transform: rotate(90deg);
+    z-index: 2;
+    border-radius: 50%; /* only FireFox < 75.0v (fix bug)*/
+}
+.diagram_two.over_50 .piece.left {
+    transform: rotate(180deg);
+}
+.diagram_two .piece.right {
+    transform: rotate(180deg);
+    z-index: 1;
+    border-radius: 50%; /* only FireFox < 75.0v (fix bug)*/
+}
+.diagram_two.over_50 .piece.right {
+    transform: rotate(360deg);
+}
+.diagram_two .left::before {
+    background: #d74680;
+}
+.diagram_two.over_50 .left::before {
+    background: #990;
+}
+.diagram_two .right::before {
+    background: #d74680;
+}
+.diagram_two .text {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* THREE ==========================================*/
+
+.diagram_three {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #dfe8ed;
+    position: relative;
+    overflow: hidden;
+    left: 20%;
+}
+.diagram_three::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    right: 13px;
+    bottom: 13px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 3;
+    opacity: 1;
+}
+.diagram_three .piece {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+}
+.diagram_three .piece::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.diagram_three .piece.left {
+    transform: rotate(75deg);
+    z-index: 2;
+    border-radius: 50%; /* only FireFox < 75.0v (fix bug)*/
+}
+.diagram_three.over_50 .piece.left {
+    transform: rotate(180deg);
+}
+.diagram_three .piece.right {
+    transform: rotate(180deg);
+    z-index: 1;
+    border-radius: 50%; /* only FireFox < 75.0v (fix bug)*/
+}
+.diagram_three.over_50 .piece.right {
+    transform: rotate(360deg);
+}
+.diagram_three .left::before {
+    background: #15c7a8;
+}
+.diagram_three.over_50 .left::before {
+    background: #990;
+}
+.diagram_three .right::before {
+    background: #15c7a8;
+}
+.diagram_three .text {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOUR ==========================================*/
+
+.diagram_four {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #dfe8ed;
+    position: relative;
+    overflow: hidden;
+    left: 20%;
+}
+.diagram_four::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    right: 13px;
+    bottom: 13px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 3;
+    opacity: 1;
+}
+.diagram_four .piece {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+}
+.diagram_four .piece::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.diagram_four .piece.left {
+    transform: rotate(45deg);
+    z-index: 2;
+    border-radius: 50%; /* only FireFox < 75.0v (fix bug)*/
+}
+.diagram_four.over_50 .piece.left {
+    transform: rotate(180deg);
+}
+.diagram_four .piece.right {
+    transform: rotate(180deg);
+    z-index: 1;
+    border-radius: 50%; /* only FireFox < 75.0v (fix bug)*/
+}
+.diagram_four.over_50 .piece.right {
+    transform: rotate(360deg);
+}
+.diagram_four .left::before {
+    background: #eb7d4b;
+}
+.diagram_four.over_50 .left::before {
+    background: #990;
+}
+.diagram_four .right::before {
+    background: #eb7d4b;
+}
+.diagram_four .text {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Portfolio ======================================*/
+
+.portfolio {
+    height: 1300px;
+    background-color: #ffdd99;
+}
+
+.portfolio .serice_container h1 {
+    color: #393939;
+}
+
+.portfolio .serice_container h3 {
+    color: #393939;
+}
+
+.portfolio_icon_block {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio_icon {
+    margin-left: 30px;
+    margin-top: 40px;
+    padding: 12px 25px 12px 25px;
+    background-color: #ebc985;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #393939;
+    left: 30px;
+}
+
+.portfolio_icon_block a {
+    text-decoration: none;
+}
+
+.portfolio_icon:hover {
+    background-color: #fff;
+}
+
+.macbook_block {
+    position: relative;
+    max-width: 540px;
+    float: right;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.macbook_block h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #393939;
+    text-align: center;
+
+}
+
+.portfolio_button {
+    background-color: #ffdd99;
+    height: 160px;
+    text-align: center;
+}
+
+
+.portfolio_button a {
+
+
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-right: 65px;
+    padding-left: 65px;
+    background-color: #17c2a4;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.portfolio_button a:hover {
+    background-color: #0d846f
+}
+
+.about {
+    height: 700px;
+    background-color: #d74680;
+}
+
+.about_block {
+    max-width: 45%;
+    margin: 50px 0 0 30px;
+    float: left;
+}
+
+
+
+.about_photo {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    float: left;
+    background-color: #393939;
+}
+
+.about_text_block {
+    margin-left: 120px;
+}
+
+.about_text {
+
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.about_name {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+
+.about_prof {
+    color: #fcd597;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px;
+    margin-top: px;
+
+}
+
+.about_block_two {
+    max-width: 45%;
+    margin: 50px 0 0 30px;
+    float: left;
+
+}
+
+.touch {
+    height: 820px;
+    background-color: #3c5499;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+
+}
+
+input[type="text"], input[type="password"], input[type="search"] {
+    color: #5d5d5d;
+    width: 40%;
+    padding: 8px;
+    margin-left: 90px;
+    border-radius: 5px;
+    background-color: #273a71;
+    margin-top: 40px;
+}
+
+.input_block {
+    max-width: 100%;
+}
+
+.input_text {
+    margin-top: 20px;
+    max-width: 100%;
+    height: 300px;
+}
+
+.input_text textarea {
+    background-color: #273a71;
+    width: 87%;
+    height: 80%;
+    margin-left: 90px;
+    border-radius: 5px;
+}
+
+.touch .portfolio_button {
+    background-color: #3c5499;
+    margin-top: 40px;
+}
+
+.touch .portfolio_button a {
+    background-color: #30bae7;
+    width: 200px;
+}
+
+.touch .portfolio_button a:hover {
+    background-color: #1a83a5;
+}
+
+.footer {
+    height: 50px;
+    background-color: #344b8e;
+}
+
+.footer_link {
+    margin-left: 65px;
+    text-align: center;
+
+
+    color: #fff;
+    text-decoration: none;
+    opacity: .75;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+
+    transition: opacity .1s linear;
+}
+
+.footer_link:hover {
+    color: #30bae7;
+    background-color: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
